@@ -15,3 +15,6 @@ Multiple Soil moisture Datalogger using 555 timers and Multiplexers
 
 # Version 4
 BLE Soil moisture Datalogger
+
+# Version 5
+Solar powered BLE Soil moisture sensor
