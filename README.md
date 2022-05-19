@@ -22,7 +22,19 @@ Solar powered BLE Soil moisture sensor
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Simple Soil Datalogger using resistive divider
+### Objective: Design a soil mositure datalogger for measuring a watermark granular sensor using a simple resistive divider 
 
+#### What is a watermark sensor??
 Understanding GMS (Granular Matrix sensors)
 A Granular matrix sensor is a type of sensor that contains a pair of corrison resistant electrodes that are embedded in an granular matrix. Current is applied to 
-the sensors to obtain the resistance value. This resistance is co-related to centibars / Kilopascals of the soil water tension. 
+the sensors to obtain the resistance value. This resistance is co-related to centibars / Kilopascals of the soil water tension.
+![download](https://user-images.githubusercontent.com/26503600/169240719-eefdddde-653b-4b35-84c0-3f19a839385d.jpg)
+
+
+
+
+![Resistive_divider](https://user-images.githubusercontent.com/26503600/169237215-787583b4-245c-4cd4-b6ff-db79e823348d.png)
+
+
+
+
