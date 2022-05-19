@@ -5,7 +5,7 @@ A Tensiometer is a device which measures soil water tension, unlike many soil se
 This project is a low cost implementation of a datalogger that is used to measure soil moisture in terms of SWT (Soil water tension). The project is planned in terms of 4 different versions. Even though the circuit can be used for different soil sensors in general, it is more targeted towards Granular Watermark Sensors 200L
 
 # Version 1
-Simple Soil moisture Datalogger using a simple resistive divider arrabgement
+Simple Soil moisture Datalogger using a simple resistive divider arrangement
 
 # Version 2
 Single Soil moisture Datalogger using 555 Timer circuit
@@ -18,6 +18,11 @@ BLE Soil moisture Datalogger
 
 # Version 5
 Solar powered BLE Soil moisture sensor
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Simple Soil Datalogger using resistive divider
+
+Understanding GMS (Granular Matrix sensors)
+A Granular matrix sensor is a type of sensor that contains a pair of corrison resistant electrodes that are embedded in an granular matrix. Current is applied to 
+the sensors to obtain the resistance value. This resistance is co-related to centibars / Kilopascals of the soil water tension. 
