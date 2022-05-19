@@ -29,7 +29,7 @@ Understanding GMS (Granular Matrix sensors)
 A Granular matrix sensor is a type of sensor that contains a pair of corrison resistant electrodes that are embedded in an granular matrix. Current is applied to 
 the sensors to obtain the resistance value. This resistance is co-related to centibars / Kilopascals of the soil water tension.
 ![download](https://user-images.githubusercontent.com/26503600/169240719-eefdddde-653b-4b35-84c0-3f19a839385d.jpg)
-
+#### Watermark sensor 200ss
 
 
 
