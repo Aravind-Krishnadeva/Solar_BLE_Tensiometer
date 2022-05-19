@@ -18,3 +18,6 @@ BLE Soil moisture Datalogger
 
 # Version 5
 Solar powered BLE Soil moisture sensor
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Simple Soil Datalogger using resistive divider
