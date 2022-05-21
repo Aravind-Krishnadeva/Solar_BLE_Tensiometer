@@ -22,7 +22,7 @@ Solar powered BLE Soil moisture sensor
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Simple Soil Datalogger using resistive divider
-### Objective: Design a soil mositure datalogger for measuring a watermark granular sensor using a simple resistive divider 
+### Objective: Design a soil moisture datalogger for measuring a watermark granular sensor using a simple resistive divider 
 
 #### What is a watermark sensor??
 Understanding GMS (Granular Matrix sensors)
@@ -31,6 +31,11 @@ the sensors to obtain the resistance value. This resistance is co-related to cen
 ![download](https://user-images.githubusercontent.com/26503600/169240719-eefdddde-653b-4b35-84c0-3f19a839385d.jpg)
 #### Watermark sensor 200ss
 
+## Devices used in the project
+1. Watermark sensor
+2. 7.87K fixed resistor
+3. Arduino
+4. Connecting wires
 
 
 ![Resistive_divider](https://user-images.githubusercontent.com/26503600/169237215-787583b4-245c-4cd4-b6ff-db79e823348d.png)
