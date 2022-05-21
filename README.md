@@ -37,6 +37,11 @@ the sensors to obtain the resistance value. This resistance is co-related to cen
 3. Arduino
 4. Connecting wires
 
+## Background / Theory 
+This version of the project uses a fixed resistor of value 7.87K, that is used in series with the watermark sensor, whose resistance is to be measured. The circuit
+uses digital power input from an arduino/ or a separate battery can be used. After the resistance is calculated, the the resistance value is calibrated to reflect
+the soil water tension in Kilo pascals or centibars. This analog input is read by the arduino, which can be read a suitable display / screen
+
 
 ![Resistive_divider](https://user-images.githubusercontent.com/26503600/169237215-787583b4-245c-4cd4-b6ff-db79e823348d.png)
 
