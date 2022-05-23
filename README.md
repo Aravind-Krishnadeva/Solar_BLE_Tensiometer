@@ -32,9 +32,9 @@ Solar powered BLE Soil moisture sensor
 9. Future works
 
 ## Background / Theory 
-This version of the project uses a fixed resistor of value 7.87K, that is used in series with the watermark sensor, whose resistance is to be measured. The circuit
-uses digital power input from an arduino/ or a separate battery can be used. After the resistance is calculated, the the resistance value is calibrated to reflect
-the soil water tension in Kilo pascals or centibars. This analog input is read by the arduino, which can be read a suitable display / screen
+Granular matrix sensor is a type of resistive soil moisture sensor, that uses a granular matrix, embedded within the sensor, which is used for precision farming and irrigation scheduling. One such GMS (Granular matrix sensor) sensor is the watermark sensor, that is manufactured by Irrometer. The watermark soil sensor measures the electrical resistance, inside of a granular matrix to determine soil water tension. Once the resistance is known, the value is calibrated to soil water tension via a series of equations or referencing look-up tables. 
+![watermark-sensor-500x500](https://user-images.githubusercontent.com/26503600/169804278-26a79443-f2f1-4aa2-b1e7-c592f000f05c.jpg)
+
 
 
 
