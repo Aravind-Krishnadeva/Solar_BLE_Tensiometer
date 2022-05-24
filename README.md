@@ -33,10 +33,16 @@ Solar powered BLE Soil moisture sensor
 
 ## Background / Theory 
 Granular matrix sensor is a type of resistive soil moisture sensor, that uses a granular matrix, embedded within the sensor, which is used for precision farming and irrigation scheduling. One such GMS (Granular matrix sensor) sensor is the watermark sensor, that is manufactured by Irrometer. The watermark soil sensor measures the electrical resistance, inside of a granular matrix to determine soil water tension. Once the resistance is known, the value is calibrated to soil water tension via a series of equations or referencing look-up tables. 
+In this regard, we need to design a reader module, that can read the sensor data (resistance) and can log the data onto a display screen /serial monitar of a MCU.
 ![watermark-sensor-500x500](https://user-images.githubusercontent.com/26503600/169804278-26a79443-f2f1-4aa2-b1e7-c592f000f05c.jpg)
 
 ## Project requirements 
-To be continued...
+1. The sensor has to be driven/powered by a pseudo AC pulse circuitry
+2. The sensor has to be powered by 3.3V pulsating source
+3. The sensor has to include a temperature sensor for soil temperature compensation
+4. The sensor has to include a TVS diode on it's line against protection from earthing or high voltages
+5. The circuit has to provide outputs separately as a current, voltage and frequency signal.
+6. To be continued..
 
 
 
