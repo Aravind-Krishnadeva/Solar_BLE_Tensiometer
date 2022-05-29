@@ -38,6 +38,21 @@ In this regard, we need to design a reader module, that can read the sensor data
 ![watermark-sensor-500x500](https://user-images.githubusercontent.com/26503600/169804278-26a79443-f2f1-4aa2-b1e7-c592f000f05c.jpg)
 
 
+### Features of the Watermark sensor
+
+1. 0-200 Centibar range
+2. Stainless steel enclosure
+3. Fully solid state
+4. Will not dissolve in soil
+5. Not affected by freezing temperatures
+6. Internal compensation for commonly found salinity levels
+7. Inexpensive
+8. Easy to use
+9. No maintenance
+
+For additional details on the sensor, navigate on the given link, https://www.irrometer.com/pdf/sensors/403%20WATERMARK%20Sensor-WEB.pdf
+
+
 
 
 
