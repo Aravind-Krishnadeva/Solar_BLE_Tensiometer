@@ -1,1 +1,7 @@
-
+## Project requirements 
+1. The sensor has to be driven/powered by a pseudo AC pulse circuitry( Because a DC source can corrode the probes, and a pseudo AC is recommended)
+2. The pseudo AC excitation should not exceed more than 50 ms, and measurement should be taken within 100 us
+2. The sensor has to include a temperature sensor for soil temperature compensation
+3. The sensor has to include a TVS diode on it's line against protection from earthing or high voltages
+4. The circuit needs to provide a suitable voltage, current, or frequency signal as an output for data logging 
+5. If multiple Tensiometers / soil sensors are to be deployed, then a galvanic isolation is required to prevent ground loops, among various sensors
