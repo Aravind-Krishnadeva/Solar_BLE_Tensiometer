@@ -1,1 +1,7 @@
+Main features of the hardware
+The watermark sensor reader module/hardware consists of two main features
+(a). Pseudo AC signal / pulse generator, which is acheived using a low cost CMOS version of 555 timer
+(b). Signal conditioner that converts the pulse signal as a function of frequency, current or a voltage signal
+
+Circuits
 
