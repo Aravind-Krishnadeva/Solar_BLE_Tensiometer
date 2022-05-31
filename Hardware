@@ -1,7 +1,21 @@
-Main features of the hardware
-The watermark sensor reader module/hardware consists of two main features
-(a). Pseudo AC signal / pulse generator, which is acheived using a low cost CMOS version of 555 timer
-(b). Signal conditioner that converts the pulse signal as a function of frequency, current or a voltage signal
+Hardware Requirements
 
-Circuits
+This file includes hardware details related to the project. This section, provides suitable information on
+
+1. Principle of operation of the proposed hardware
+2. Hardware specifications
+3. Build and test of prototype hardware 
+4. Further improvements section
+
+The watermark hardware reader consists of a low cost, low power CMOS 555 IC, which creates a pseudo AC astable signal that is used to power the sensor.
+
+
+
+
+* Hardware specifications
+* Supply Voltage: 3.3V
+• Frequency output: 50 Hz (dry) to 7 kHz (wet)
+* open collector square wave (needs pull-up resistor to read out frequency.
+* Frequency output with sensor short circuit: ~13 kHz
+
 
