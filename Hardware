@@ -9,9 +9,6 @@ This file includes hardware details related to the project. This section, provid
 
 The watermark hardware reader consists of a low cost, low power CMOS 555 IC, which creates a pseudo AC astable signal that is used to power the sensor.
 
-
-
-
 * Hardware specifications
 * Supply Voltage: 3.3V
 • Frequency output: 50 Hz (dry) to 7 kHz (wet)
