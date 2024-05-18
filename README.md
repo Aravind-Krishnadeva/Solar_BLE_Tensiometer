@@ -61,5 +61,7 @@ The hardware consists of three major blocks
 2. Controller section
 3. Signal conditioning section
 
+## Step 1: Design of the signal conditioning system
 
+We need an interface for measuring the soil moisture sensor. The moisture content is measured by determining resistance of the soil sensor electrodes. The signal conditioner uses a LMC555 timer in relaxation oscillator mode to send an AC pulse signal to the electrodes. The AC resistance is suitably converted to a frequency output, that can be read by our STM32 data logger, which converts our resistance to Kilo pascals or centibars that can be displayed on a suitable display. 
 
