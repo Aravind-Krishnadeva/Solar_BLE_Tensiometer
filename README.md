@@ -1,20 +1,9 @@
 # STM32 SOLAR GRANULAR MATRIX SOIL SENSOR
 
-A Tensiometer is a device which measures soil water tension, unlike many soil sensors that only measures amount of water content in the soil. They measure soil water tension in units of negitive pressure, also known as 'tension', measured in terms of Kpas ( Kilo Pascals) or cbars (Centibars). As plants extract moisture from the soil pores, water content starts getting dried up, which increases the soil tension. Soil tension is measured by a hand held data logger that can be connected to tensiometer.
+A Tensiometer is a device which measures soil water tension, unlike many soil sensors that only measures amount of water content in the soil. They measure soil water tension in units of negitive pressure, also known as 'tension', measured in terms of Kpas ( Kilo Pascals) or cbars (Centibars). As plants extract moisture from the soil pores, water content starts getting dried up, which increases the soil tension. Soil tension is measured by a hand held data logger that can be connected to tensiometer. 
 
-This project is a low cost implementation of a datalogger that is used to measure soil moisture in terms of SWT (Soil water tension). The project is planned in terms of 4 different versions. Even though the circuit can be used for different soil sensors in general, it is more targeted towards Granular Watermark Sensors 200L
+In this project, a solar powered soil sensor is developed, which is used to power our system. The solar module is used to drive an ultra low power PMIC, which charges a Li Po battery. The system is powered by the Li Po battery, which provides uninterrupted power to the system, even during night time.
 
-# Version 1
-Single Soil moisture Datalogger using 555 Timer circuit
-
-# Version 2
-Multiple Soil moisture Datalogger using 555 timers and Multiplexers
-
-# Version 3
-Wireless sensing using BLE (BLE Soil moisture sensor)
-
-# Version 4
-Solar powered BLE Soil moisture sensor
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -53,14 +42,24 @@ In this regard, we need to design a reader module, that can read the sensor data
 For additional details on the sensor, navigate on the given link, https://www.irrometer.com/pdf/sensors/403%20WATERMARK%20Sensor-WEB.pdf
 
 ## Bill of materials (BOM) for the Irrometer reader
-1. LMC 555 (CMOS version of 555 IC)
-2. Fixed resistor dividers: 390E and 150K
-3. Pull up resistor across Discharge Output: 1K
-4. Timing Capacitor: 100nF
-5. Filter Capacitors across Sensor lines: 4.7u 16V - 2 numbers
-6. Optional Protection diodes across sensor lines, against earth faults
+1. STM32L476 Nucleo board ( Controller )
+2. Li Po battery 3.7 Volts
+3. Watermark soil sensor
+4. DS18B20 soil temperature sensor
+5. LMC 555 (CMOS version of 555 IC)
+6. Fixed resistor dividers: 390E and 150K
+7. Pull up resistor across Discharge Output: 1K
+8. Timing Capacitor: 100nF
+9. Filter Capacitors across Sensor lines: 4.7u 16V - 2 numbers
+10. Optional Protection diodes across sensor lines, against earth faults
 
+## Hardware sections
 
+The hardware consists of three major blocks
+
+1. Power supply section
+2. Controller section
+3. Signal conditioning section
 
 
 
